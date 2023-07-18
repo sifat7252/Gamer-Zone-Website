@@ -1,0 +1,18 @@
+@media screen and  (max-width:425px) {
+
+    nav{
+        flex-direction: column;
+    }
+    .nav-menus{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    
+}
