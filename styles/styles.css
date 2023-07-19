@@ -53,10 +53,14 @@ nav{
 }
 .nav-menus a:hover {
     color: blueviolet;
+    border-style: outset;
 }
 .nav-btn{
     padding: 5px;
     border: none;
+    border-style: outset;
+    border-radius: 5px;
+    
     
 
 }
@@ -67,6 +71,7 @@ nav{
 /* banner section started here */
 
 .banner-container{
+    
     margin: 50px auto 0;
     max-width: 1400px;
     min-height: 50px;
@@ -78,13 +83,16 @@ nav{
     border-radius: 10px;
 }
 .banner-text{
+    
     background-image: url(../images/Group\ 14.png);
     width: 50%;
     text-align: center;
     /* border: 1px solid blue; */
     /* height: 100vh; */
     padding: 90px;
+    
 }
+
 .banner-title1{
     color: #0B0223;
     text-align: center;
@@ -194,6 +202,7 @@ nav{
 }
 .banner2-btn:hover{
     color: blue;
+    border-style: outset;
 }
 .banner2-content-footer{
     color: #534C64;
@@ -216,12 +225,12 @@ nav{
     grid-template-rows: 4 1fr; */
     /* align-items: center; */
     /* justify-content: center; */
-    border: 5px solid rebeccapurple;
+    
     margin: 10px 10px;
 
 }
 .funny-content{
-    border: 5px solid red;
+   
     justify-content: center;
     margin-bottom: 15px;
 }
@@ -240,9 +249,10 @@ nav{
     line-height: 40px;
 }
 .funny-img{
-    border: 5px solid green;
+ 
     display: flex;
     justify-content: center;
+    box-shadow: 10px 5px 15px;
 }
 .funny-img img {
     width: 90%;
@@ -251,14 +261,18 @@ nav{
     width: 88%;
     margin-left: 25px;
 }
-.funny-image{
-    border: 2px solid pink;
-}
+
+
 .funny-image p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
+    
 
+}
+.funny-image:hover{
+    border-style: outset;
+    text-overflow: calc(watch now);
 }
 /* .funny-img img:hover{
     color: #F948B2;
@@ -268,9 +282,11 @@ nav{
 /* play instantly section started here */
 
 .play-instant-container{
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
 }
 .bg-img{
     height: 100%;
@@ -284,8 +300,9 @@ nav{
     /* margin-left: 40px; */
 }
 
+
 .play-anywhere-container{
-    border: 2px solid red;
+   
     display:flex;
     justify-content: center;
     align-items: center;
@@ -296,12 +313,12 @@ nav{
 
 }
 .bg-img1{
-    border: 2px solid yellow;
+   
     height: 100%;
     margin-right: 150px;
 }
 .up-img1{
-    border: 2px solid green;
+   
     border-radius: 8px;
     position: relative;
     /* width: 0px; */
@@ -311,7 +328,7 @@ nav{
 /* careers section started here */
 
 .careers-container{
-    border: 2px solid green;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -319,13 +336,13 @@ nav{
     
 }
 .careers-content{
-    border: 2px solid yellow;
+    
     width: 45%;
     padding-top: 20px;
     margin-top: 80px;
 }
 .careers-title{
-    border: 2px solid rebeccapurple;
+    
     color: #FFF;
     font-size: 48px;
     font-weight: 700;
@@ -333,7 +350,7 @@ nav{
     margin-bottom: 25px;
 }
 .careers-description{
-    border: 2px solid red;
+    
     color: #FFF;
     font-size: 18px;
     font-weight: 400;
@@ -341,7 +358,7 @@ nav{
     margin-bottom: 30px;
 }
 .careers-address{
-    border: 2px solid black;
+   
     display: flex;
     justify-content: space-around;
     color: #FFF;
@@ -353,7 +370,7 @@ nav{
     text-align: right;
 }
 .careers-image{
-    border: 2px solid skyblue;
+    
     width: 45%;
 }
 .careers-image img{
@@ -391,28 +408,35 @@ nav{
 /* button section started here */
 
 .btn-container{
-    border: 1px solid red;
-    display: grid;
-    grid-template-columns: 4 1fr;
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 10px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* grid-template-columns: repeat(4 1fr); */
 }
 .btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items:center;
     height: 80px;
-    width: 300px;
+    width: 200px;
     border-radius: 50px;
     border: none;
+    box-shadow: 10px 5px 15px;
 }
-.btn > text but {
+.btn  text {
     color: #0B0223;
     font-size: 200px;
     font-weight: 600;
 
 }
-.btn img {
-    /* padding-left: 20px; */
-
+.btn:hover{
+    color: #FF42A5;
+    border-style: outset;
 }
 
 
@@ -422,15 +446,25 @@ nav{
 
 
 /* footer section started here */
+
+
 footer{
     background-color: #0B0223;
     /* justify-items: center; */
     justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
 
     
 }
-.footer-title{
+
+    
+
+.footer-title .nav-content {
     text-align: center;
+    margin-top: 40px;
+    padding-left: 40%;
 }
 footer a{
     text-decoration: none;
@@ -451,21 +485,17 @@ footer a:hover{
     margin-left: 60px;
     display: inline-flex;
     padding: 10px;
-    align-items: flex-start;
+    align-items: center;
     gap: 60px;
 }
-
-
-
-
-
-
-
 .game-white{
     color: #FFF;
 }
 .footer-icons{
     text-align: center;
+    /* align-content: center; */
+    /* justify-content: space-between; */
+    
     
 }
 
@@ -475,6 +505,9 @@ footer a:hover{
     font-size: 16px;
     font-weight: 500;
 
+}
+.footer-terms a:hover{
+    border-style: outset;
 }
 .footer-copyright{
     color: rgba(255, 255, 255, 0.60);
