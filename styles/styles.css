@@ -265,6 +265,51 @@ nav{
     
 } */
 
+/* play instantly section started here */
+
+.play-instant-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg-img{
+    height: 100%;
+    margin-left: 150px;
+}
+.up-img{
+    border-radius: 8px;
+    position: relative;
+    width: 320px;
+    bottom: 270px;
+    /* margin-left: 40px; */
+}
+
+.play-anywhere-container{
+    border: 2px solid red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+.bg-img1{
+    border: 2px solid yellow;
+    height: 100%;
+    margin-right: 150px;
+}
+.up-img1{
+    border: 2px solid green;
+    border-radius: 8px;
+    position: relative;
+    /* width: 0px; */
+    bottom: 250px; 
+}
+
+
+
 
 
 
