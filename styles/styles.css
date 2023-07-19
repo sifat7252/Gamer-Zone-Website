@@ -77,6 +77,95 @@ nav{
 .banner-img{
     border: 3px solid yellow;
 }
+.banner-btn2{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items:self-end;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+}
+.banner-btn2:hover{
+    color: blue;
+}
+/* second banner section started here  */
+ 
+.banner2-container{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 50px 20px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.banner2-content{
+    text-align: right;
+    
+}
+.banner2-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.banner2-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-top: 20px;
+}
+.banner2-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items:self-end;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin: 30px 10px 20px 0px;
+}
+.banner2-btn:hover{
+    color: blue;
+}
+.banner2-content-footer{
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.banner2-last-footer{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* button section started here */
