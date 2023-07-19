@@ -53,12 +53,90 @@ nav{
 .nav-menus a:hover {
     color: blueviolet;
 }
-.btn{
+.nav-btn{
     padding: 5px;
     
 
 }
 .fa-youtube, .fa-tiktok{
     margin-left: 5px;
+    
+}
+/* banner section started here */
+
+.banner-container{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text{
+    border: 1px solid blue;
+    height: 100vh;
+}
+.banner-img{
+    border: 3px solid yellow;
+}
+
+/* footer section started here */
+footer{
+    background-color: #0B0223;
+    /* justify-items: center; */
+    justify-content: center;
+
+    
+}
+.footer-title{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: blue;
+}
+.footer-links{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    
+
+}
+.footer-links a{
+    margin-left: 60px;
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+
+
+
+
+
+
+.game-white{
+    color: #FFF;
+}
+.footer-icons{
+    text-align: center;
+    
+}
+
+.footer-terms{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
     
 }
