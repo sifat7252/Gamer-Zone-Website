@@ -78,6 +78,39 @@ nav{
     border: 3px solid yellow;
 }
 
+
+/* button section started here */
+
+.btn-container{
+    border: 1px solid red;
+    display: grid;
+    grid-template-rows: 4 1fr;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+}
+.btn > text but {
+    color: #0B0223;
+    font-size: 200px;
+    font-weight: 600;
+
+}
+.btn img {
+    /* padding-left: 20px; */
+
+}
+
+
+
+
+
+
+
 /* footer section started here */
 footer{
     background-color: #0B0223;
