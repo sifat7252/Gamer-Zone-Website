@@ -308,6 +308,71 @@ nav{
     bottom: 250px; 
 }
 
+/* careers section started here */
+
+.careers-container{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF42A5;
+    
+}
+.careers-content{
+    border: 2px solid yellow;
+    width: 45%;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+.careers-title{
+    border: 2px solid rebeccapurple;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 25px;
+}
+.careers-description{
+    border: 2px solid red;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.careers-address{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.right{
+    text-align: right;
+}
+.careers-image{
+    border: 2px solid skyblue;
+    width: 45%;
+}
+.careers-image img{
+    width: 100%;
+}
+.careers-btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    color: #FF42A5;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    border: none;
+}
+
 
 
 
@@ -328,7 +393,7 @@ nav{
 .btn-container{
     border: 1px solid red;
     display: grid;
-    grid-template-rows: 4 1fr;
+    grid-template-columns: 4 1fr;
 }
 .btn{
     display: flex;
@@ -337,6 +402,7 @@ nav{
     height: 80px;
     width: 300px;
     border-radius: 50px;
+    border: none;
 }
 .btn > text but {
     color: #0B0223;
