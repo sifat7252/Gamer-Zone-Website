@@ -53,7 +53,7 @@ nav{
 }
 .nav-menus a:hover {
     color: blueviolet;
-    border-style: outset;
+    border-style:inset;
 }
 .nav-btn{
     padding: 5px;
@@ -63,6 +63,9 @@ nav{
     
     
 
+}
+.nav-btn:hover{
+    color: blue;
 }
 .fa-youtube, .fa-tiktok{
     margin-left: 5px;
@@ -429,6 +432,10 @@ nav{
     margin-bottom: 100px;
     font-weight: 700;
     border: none;
+    box-shadow: 5px 5px 5px;
+}
+.careers-btn:hover{
+    color: blue;
 }
 
 
