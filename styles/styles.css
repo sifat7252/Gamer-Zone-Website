@@ -249,13 +249,13 @@ nav{
     line-height: 40px;
 }
 .image{
-    border: 2px solid blue;
+    
     width: 300px;
     height: 400px;
     justify-content: space-between;
 }
 .funny-img{
-    border: 2px solid yellow;
+    
     display: flex;
     justify-content: space-between;
     box-shadow: 5px 5px 15px;
