@@ -66,9 +66,7 @@
        .banner-btn2{
         margin-bottom: 40px;
        }
-       .funny-content{
-        
-       }
+      
       .funny-img{
         display: grid;
         grid-template-rows:repeat(1);
@@ -86,10 +84,7 @@
       .instant-img{
         width: 100%;
       }
-      .careers-title{
-        /* font-size: 10px; */
-        /* font-weight: 100; */
-        /* line-height: 20px; */
+     
 
       }
       .careers-container{
@@ -107,7 +102,7 @@
       }
       
     
-}
+
 
 
 
