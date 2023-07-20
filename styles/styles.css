@@ -326,7 +326,7 @@ nav{
 /* play instantly section started here */
 
 .play-instant-container{
-    border: 2px solid blue;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;

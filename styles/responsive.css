@@ -74,7 +74,7 @@
       .funny-image{
         margin-bottom: 30px;
       }
-      .play-instant-container, .careers-container{
+      .play-instant-container, .play-anywhere-container, .careers-container{
         flex-direction: column;
 
       }
@@ -82,6 +82,9 @@
         width: 100%;
       }
       .instant-img{
+        width: 100%;
+      }
+      .instant-container img{
         width: 100%;
       }
      
